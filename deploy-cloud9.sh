@@ -1,3 +1,5 @@
+set -x
+
 # Instrucciones despliegue sin contenerizacion
 
 # Instrucciones desplegar Hasher
@@ -39,3 +41,5 @@ python ./worker/worker.py &
 npm i express redis@3.1.2
 
 cd ./webui $$ node webui.js &
+
+set +x

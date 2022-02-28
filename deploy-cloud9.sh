@@ -35,3 +35,7 @@ pip install redis request
 
 python ./worker/worker.py &
 
+#Instrucciones webUI
+npm i express redis@3.1.2
+
+cd ./webui $$ node webui.js &
